@@ -9,3 +9,5 @@ router.get('/', auth, imageController.getImages);
 router.get('/:id', auth, imageController.getImage);
 router.patch('/:id', auth, imageController.updateImage);
 router.delete('/:id', auth, imageController.deleteImage);
+
+module.exports = router;

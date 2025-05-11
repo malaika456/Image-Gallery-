@@ -24,14 +24,3 @@ router.get('/profile', auth, async (req, res) => {
 
 module.exports = router;
 
-// .env file (create this but don't commit to repo)
-PORT=5000
-DB_NAME=image_gallery
-DB_USER=your_db_username
-DB_PASSWORD=your_db_password
-DB_HOST=your-rds-endpoint.rds.amazonaws.com
-JWT_SECRET=your_jwt_secret_key
-AWS_ACCESS_KEY_ID=your_aws_access_key
-AWS_SECRET_ACCESS_KEY=your_aws_secret_key
-AWS_REGION=us-east-1
-S3_BUCKET_NAME=your-s3-bucket-name
