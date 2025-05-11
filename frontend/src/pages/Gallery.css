@@ -1,0 +1,26 @@
+.gallery {
+    padding: 20px 0;
+  }
+  
+  .gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .no-images {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
